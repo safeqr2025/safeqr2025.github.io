@@ -1,3 +1,40 @@
+/* Documentation buttons styling */
+.doc-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+.doc-btn {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  background-color: #1976d2;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: bold;
+  transition: background 0.2s;
+}
+.doc-btn:hover {
+  background-color: #1565c0;
+}
+/* Table styling for contact.html */
+table {
+  border-collapse: collapse;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+th, td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+}
+th {
+  background-color: #f5f5f5;
+}
 body {
   font-family: Arial, sans-serif;
   margin: 0;
