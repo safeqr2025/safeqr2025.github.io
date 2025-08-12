@@ -20,11 +20,16 @@ header {
 }
 
 .logo {
-  width: 80px;
+  width: 12vw;
+  min-width: 60px;
+  max-width: 120px;
   height: auto;
   border-radius: 16px;
   box-shadow: 0 2px 8px rgba(25, 118, 210, 0.15);
   margin-bottom: 0.5rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* Navigation bar */
