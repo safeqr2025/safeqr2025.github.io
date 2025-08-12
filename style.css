@@ -174,15 +174,49 @@ footer {
 
 /* Responsive design */
 @media (max-width: 900px) {
-  section {
-    padding: 1.2rem 0.5rem;
-    max-width: 98vw;
+  header {
+    padding: 1.2rem 0.5rem 1rem 0.5rem;
   }
-  table {
-    width: 98vw;
+  nav {
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 0.7rem 0;
+    font-size: 1rem;
+  }
+  main {
+    padding: 1rem 0.2rem;
+  }
+  section {
+    padding: 1rem 0.5rem;
+    max-width: 98vw;
   }
   .doc-buttons {
     flex-direction: column;
     align-items: stretch;
   }
+  table {
+    width: 98vw;
+    font-size: 0.95rem;
+  }
+  img {
+    width: 90vw !important;
+    height: auto !important;
+    max-width: 350px;
+  }
+  video {
+    width: 98vw !important;
+    height: auto !important;
+    max-width: 98vw !important;
+    max-height: 60vw !important;
+  }
+}
+
+/* Make sure images and videos are always responsive */
+img, video {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
